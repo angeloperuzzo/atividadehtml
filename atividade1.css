@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5d9d9;
+    text-align: center;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+input[type="submit"] {
+    background-color: #0074d9;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    color: #0074d9;
+    text-decoration: none;
+}
+
+div.informacoes{
+    text-align: left;
+    font-size: 15px;
+}
+div.botoes input{
+    background-color: white;
+    color: #1e55ec;
+    border: 1px solid blue;
+}
+div.botoes input[type=submit]:hover {
+    background-color: #62cfeb;
+    color: white;
+}
+
+div.dados p{
+    font-size: 10px;
+}
